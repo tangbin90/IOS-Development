@@ -17,27 +17,27 @@
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <tableView clipsSubviews="YES" tag="1" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="22" sectionFooterHeight="22" translatesAutoresizingMaskIntoConstraints="NO" id="U8u-SL-7jm">
-                                <rect key="frame" x="16" y="0.0" width="568" height="600"/>
+                            <tableView clipsSubviews="YES" tag="1" contentMode="scaleToFill" restorationIdentifier="1" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="22" sectionFooterHeight="22" translatesAutoresizingMaskIntoConstraints="NO" id="uSE-wZ-1s4">
+                                <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <connections>
-                                    <outlet property="dataSource" destination="BYZ-38-t0r" id="8rb-N7-sn1"/>
-                                    <outlet property="delegate" destination="BYZ-38-t0r" id="Zda-wk-0eK"/>
+                                    <outlet property="dataSource" destination="BYZ-38-t0r" id="tJi-5G-7Dg"/>
+                                    <outlet property="delegate" destination="BYZ-38-t0r" id="NoT-KY-Dnp"/>
                                 </connections>
                             </tableView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         <constraints>
-                            <constraint firstItem="U8u-SL-7jm" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" id="BFw-dR-tjG"/>
-                            <constraint firstAttribute="trailingMargin" secondItem="U8u-SL-7jm" secondAttribute="trailing" id="FC0-ow-Aat"/>
-                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="U8u-SL-7jm" secondAttribute="bottom" id="SHP-gF-qIg"/>
-                            <constraint firstItem="U8u-SL-7jm" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="topMargin" id="m32-O0-G07"/>
+                            <constraint firstItem="uSE-wZ-1s4" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="-16" id="Fxm-2W-V9N"/>
+                            <constraint firstItem="uSE-wZ-1s4" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="topMargin" id="K5R-Ou-DC0"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="uSE-wZ-1s4" secondAttribute="trailing" constant="-16" id="yob-Kz-60K"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="uSE-wZ-1s4" secondAttribute="bottom" id="z3m-Ci-gD4"/>
                         </constraints>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="393" y="422"/>
+            <point key="canvasLocation" x="325" y="143"/>
         </scene>
     </scenes>
 </document>

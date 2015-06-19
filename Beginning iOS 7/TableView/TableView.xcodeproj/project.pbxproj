@@ -15,6 +15,8 @@
 		671DE4FF1B1AD68C00372CA5 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 671DE4FE1B1AD68C00372CA5 /* Images.xcassets */; };
 		671DE5021B1AD68C00372CA5 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 671DE5001B1AD68C00372CA5 /* LaunchScreen.xib */; };
 		671DE50E1B1AD68C00372CA5 /* TableViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 671DE50D1B1AD68C00372CA5 /* TableViewTests.m */; };
+		67B26EAB1B1D7F8100CA7DEC /* BIDNameAndColorCellUseNib.xib in Resources */ = {isa = PBXBuildFile; fileRef = 67B26EAA1B1D7F8100CA7DEC /* BIDNameAndColorCellUseNib.xib */; };
+		67F7BA7E1B1CA99A003B4EB4 /* BIDNameAndColorCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 67F7BA7D1B1CA99A003B4EB4 /* BIDNameAndColorCell.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -42,6 +44,9 @@
 		671DE5071B1AD68C00372CA5 /* TableViewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TableViewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		671DE50C1B1AD68C00372CA5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		671DE50D1B1AD68C00372CA5 /* TableViewTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TableViewTests.m; sourceTree = "<group>"; };
+		67B26EAA1B1D7F8100CA7DEC /* BIDNameAndColorCellUseNib.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = BIDNameAndColorCellUseNib.xib; sourceTree = "<group>"; };
+		67F7BA7C1B1CA99A003B4EB4 /* BIDNameAndColorCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BIDNameAndColorCell.h; sourceTree = "<group>"; };
+		67F7BA7D1B1CA99A003B4EB4 /* BIDNameAndColorCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BIDNameAndColorCell.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,6 +88,7 @@
 		671DE4ED1B1AD68C00372CA5 /* TableView */ = {
 			isa = PBXGroup;
 			children = (
+				67B26EA91B1D7F0B00CA7DEC /* Cells */,
 				671DE4F21B1AD68C00372CA5 /* AppDelegate.h */,
 				671DE4F31B1AD68C00372CA5 /* AppDelegate.m */,
 				671DE4F81B1AD68C00372CA5 /* ViewController.h */,
@@ -120,6 +126,16 @@
 				671DE50C1B1AD68C00372CA5 /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		67B26EA91B1D7F0B00CA7DEC /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				67F7BA7C1B1CA99A003B4EB4 /* BIDNameAndColorCell.h */,
+				67F7BA7D1B1CA99A003B4EB4 /* BIDNameAndColorCell.m */,
+				67B26EAA1B1D7F8100CA7DEC /* BIDNameAndColorCellUseNib.xib */,
+			);
+			name = Cells;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -204,6 +220,7 @@
 			files = (
 				671DE4FD1B1AD68C00372CA5 /* Main.storyboard in Resources */,
 				671DE5021B1AD68C00372CA5 /* LaunchScreen.xib in Resources */,
+				67B26EAB1B1D7F8100CA7DEC /* BIDNameAndColorCellUseNib.xib in Resources */,
 				671DE4FF1B1AD68C00372CA5 /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -225,6 +242,7 @@
 				671DE4F41B1AD68C00372CA5 /* AppDelegate.m in Sources */,
 				671DE4F71B1AD68C00372CA5 /* TableView.xcdatamodeld in Sources */,
 				671DE4FA1B1AD68C00372CA5 /* ViewController.m in Sources */,
+				67F7BA7E1B1CA99A003B4EB4 /* BIDNameAndColorCell.m in Sources */,
 				671DE4F11B1AD68C00372CA5 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -422,6 +440,7 @@
 				671DE5131B1AD68C00372CA5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		671DE5141B1AD68C00372CA5 /* Build configuration list for PBXNativeTarget "TableViewTests" */ = {
 			isa = XCConfigurationList;
@@ -430,6 +449,7 @@
 				671DE5161B1AD68C00372CA5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
